@@ -1,7 +1,7 @@
 import turtle
 
 my_turtle = turtle.Turtle()
-my_turtle.speed(0)
+my_turtle.speed(5)
 
 
 # for loop
@@ -13,7 +13,7 @@ def square(length, angle, rotate):
 # the square needs to rotate
     my_turtle.left(rotate)
 
-# I want squares to change color every 20 squares
+# I want squares to change color every 5 squares
 my_turtle.color('blue')
 for circle in range(5):
     square(70,90,10)
